@@ -1,0 +1,15 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/latest/aframe.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<body>
+	<a-scene>
+  		<a-assets>
+    			<a-asset-item id="hammer-obj" src="hammer.obj"></a-asset-item>
+    			<a-asset-item id="hammer-mtl" src="hammer.mtl"></a-asset-item>
+  		</a-assets>
+
+ 		
+		<a-entity obj-model="obj: #hammer-obj; mtl: #hammer-mtl"></a-entity>
+   
+	</a-scene>
+</body>
